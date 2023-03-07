@@ -7,9 +7,6 @@ namespace NHibernateCache.Controllers
   [Route("[controller]")]
   public class PessoaController : ControllerBase
   {
-    private readonly string[] _nomes = { "Maria", "Ana", "José", "Pedro", "Paulo", "Juliana", "Lucas", "Mateus", "Mariana", "Isabela" };
-    private readonly string[] _sobrenomes = { "Silva", "Souza", "Costa", "Oliveira", "Pereira", "Ferreira", "Santos", "Rodrigues", "Alves", "Nascimento" };
-
     private readonly ILogger<PessoaController> _logger;
     private readonly SessionManager _sessionManager;
 
