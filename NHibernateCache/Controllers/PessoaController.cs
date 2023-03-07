@@ -16,7 +16,7 @@ namespace NHibernateCache.Controllers
       _sessionManager = sessionManager;
     }
 
-    [HttpGet("seed")]
+    [HttpGet("Seed")]
     public IEnumerable<Pessoa> Seed()
     {
       var seed = new Seed();
